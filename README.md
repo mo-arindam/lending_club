@@ -1,5 +1,5 @@
 # LendingClub Case Study
-> This is a case study to solve real world business problem using EDA. Apart from applying EDA techniques this case study will also help to develop basic understanding of of risk analysis in banking and financial domain and how data is used minimise the risk of losing money while lending to customers.
+> This is a case study to solve real world business problem using EDA. Apart from applying EDA techniques this case study will also help to develop basic understanding of of risk analysis in banking and financial domain and how data is used to minimise the risk of losing money while lending to customers.
 
 
 ## Table of Contents
