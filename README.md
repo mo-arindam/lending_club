@@ -1,5 +1,5 @@
 # LendingClub Case Study
-> This is a case study to solve real world business problem using EDA. Apart from applying EDA techniques this case study > will also help to develop basic understanding of of risk analysis in banking and financial domain and how data is used > minimise the risk of losing money while lending to customers.
+> This is a case study to solve real world business problem using EDA. Apart from applying EDA techniques this case study will also help to develop basic understanding of of risk analysis in banking and financial domain and how data is used minimise the risk of losing money while lending to customers.
 
 
 ## Table of Contents
@@ -16,7 +16,7 @@
 - These decisions include approving loans with various outcomes (fully paid, ongoing, defaulted) or rejecting them entirely.
 - Identifying these "risky" applicants beforehand can significantly reduce financial losses.
 - Understanding these "driver variables" will help the company assess risk and manage its loan portfolio.
-- The data is given as a CSV files which contains 39717 rows and 111 columns
+- The raw data is given as a CSV files which contains 39717 rows and 111 columns. It also accompany data dictionary in xlsx format
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
