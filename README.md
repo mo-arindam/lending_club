@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# LendingClub Case Study
+> This is a case study to solve real world business problem using EDA. Apart from applying EDA techniques this case study > will also help to develop basic understanding of of risk analysis in banking and financial domain and how data is used > minimise the risk of losing money while lending to customers.
 
 
 ## Table of Contents
@@ -11,38 +11,46 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- A consumer finance company grants loans to urban customers, facing risks of both denying loans to good applicants and approving loans to defaulters.
+- Given data on past applicants, the company aims to identify patterns predicting defaults for future decisions
+- These decisions include approving loans with various outcomes (fully paid, ongoing, defaulted) or rejecting them entirely.
+- Identifying these "risky" applicants beforehand can significantly reduce financial losses.
+- Understanding these "driver variables" will help the company assess risk and manage its loan portfolio.
+- The data is given as a CSV files which contains 39717 rows and 111 columns
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Regarding the distribution of loan_status, which is key to understanding the likelihood of default:
+    - 82.96% of loans have been fully paid off.
+    - 14.17% of loans have been charged off, indicating a default.
+    - 2.87% of loans are currently being paid off.
+- Grade: As the grades progress from A to G, there is a noticeable trend where the default count increases
+- Interest Rate: There is a positive correlation between interest rate and loan default
+- Term: The charge-off rate for the short term appears to be lower than for the long term
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python  - version 3.10.9
+- Pandas  - version 1.5.3
+- Numpy   - version 1.23.5
+- Seaborn - version 0.12.2
+- Matplotlib -version 3.7.0
+- conda - version 23.3.1 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project is based on Lending Club Case Study by upGrad
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@mo-arindam] - feel free to contact me!
 
 
 <!-- Optional -->
